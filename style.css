@@ -1,0 +1,66 @@
+body{
+    background-image:url(pink\ butterfly\ background.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor:pointer;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align:center;
+    
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(255, 94, 121);
+    padding:0px;
+    margin:0px;
+    overflow:hidden;
+}
+.navbar a{
+    color:black;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align:center;
+}
+.navbar a{
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: rgb(255, 130, 151);
+}
+.navbar li{
+    float:left
+}
+.container {
+    text-align: center;
+}
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Adjust spacing between links */
+    margin-top: 10px; /* Space between the text and links */
+}
+.social-links a {
+    text-decoration: none;
+    color: #f6acac; /* Default link color */
+    font-size: 16px; /* Font size for the links */
+}
+footer {
+    color: #080808;
+    text-align: left;
+    padding: 0;
+    position: static;
+    width: 100%;
+    bottom: 0;
+}
